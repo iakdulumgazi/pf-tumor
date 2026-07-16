@@ -1,0 +1,11 @@
+# Preprocessing (hafif — DICOM→NIfTI aşaması)
+nibabel>=5.3
+numpy>=1.26
+pydicom>=2.4          # sadece sentetik test verisi üretimi için
+
+# Sonraki aşamalarda eklenecek (ağır, GPU):
+# torch                 # PyTorch (segmentasyon + sınıflandırma)
+# nnunetv2              # BraTS-PEDs inference
+# HD-BET                # skull stripping
+# monai                 # sınıflandırıcı backbone + augmentation
+# SimpleITK             # ko-registrasyon / resample

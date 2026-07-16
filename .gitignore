@@ -1,0 +1,9 @@
+# Hasta verisi ve modeller asla commit edilmez (gizlilik + boyut)
+data/
+models/
+.venv/
+__pycache__/
+*.pyc
+*.nii
+*.nii.gz
+.DS_Store
